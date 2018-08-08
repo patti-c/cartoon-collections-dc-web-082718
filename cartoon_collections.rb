@@ -30,6 +30,7 @@ def find_the_cheese(ingredients)
   cheese_types.each do |dacheese|
     ingredients.each do |dafood|
       dafood.include?(dacheese)
+    end 
   end 
     
 end
