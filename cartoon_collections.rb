@@ -10,6 +10,12 @@ def summon_captain_planet(planeteers)
   end 
 end
 
+def select_method(array)
+  array.select do |x|
+    x.length > 4
+  end
+end 
+
 def long_planeteer_calls(planeteers)
   planeteers.select do |x|
     x.length > 4
