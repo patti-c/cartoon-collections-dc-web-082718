@@ -17,10 +17,7 @@ def select_method(array)
 end 
 
 def long_planeteer_calls(planeteers)
-  planeteers.select do |x|
-    x.length > 4
-  end 
-  if planeteers == []
+  if select_method(planeteers) == []
     return false 
   else 
     return true 
