@@ -29,7 +29,7 @@ def find_the_cheese(ingredients)
   
   
   cheese_types.each do |food|
-    cheese_types.each do |nest|
+    ingredients.each do |nest|
       nest
   end 
     
