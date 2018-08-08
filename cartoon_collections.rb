@@ -26,8 +26,11 @@ end
 
 def find_the_cheese(ingredients)
   cheese_types = ["cheddar", "gouda", "camembert"]
-  ingredients.each do |food|
-    
+  
+  
+  cheese_types.each do |food|
+    cheese_types.each do |nest|
+      nest
   end 
     
 end
